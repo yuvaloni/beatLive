@@ -12,7 +12,7 @@ namespace BeatLive
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Directory.CreateDirectory(Path.Combine(Server.MapPath("~"),"Music");
+            Directory.CreateDirectory(Path.Combine(Server.MapPath("~"),"Music"));
             Response.Write("SUCCESS");
         }
     }
