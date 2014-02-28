@@ -73,7 +73,7 @@ namespace BeatLive
             r.Close();
             if(valid)
             {
-                SqlCommand u = new SqlCommand("INSERT INTO Radios([name],style,[user],[password]) values (@n,@s,@u,@p);CREATE TABLE "+TextBox1.Text+" ([name] varchar(255), artist varchar(255), [file] varchar(255))", c);
+                SqlCommand u = new SqlCommand("INSERT INTO Radios([name],style,[user],[password], [about],[news]) values (@n,@s,@u,@p ,'','');CREATE TABLE "+TextBox1.Text+" ([name] varchar(255), artist varchar(255), [file] varchar(255))", c);
                 u.Parameters.Add(new SqlParameter("@n", TextBox1.Text));
                 u.Parameters.Add(new SqlParameter("@s", DropDownList1.SelectedItem.Value));
                 u.Parameters.Add(new SqlParameter("@u", TextBox2.Text));
