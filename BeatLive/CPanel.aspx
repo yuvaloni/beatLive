@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <div dir="rtl"><font size="30px">כתובת הרדיו שלך: </font></div>
+        <div dir="rtl"><font size="30px">כתובת הרדיו שלך: <% Response.Write("http://beatlive.appnb.com/Radio.aspx?name="+(string)Session["id"]); %> </font></div>
         <h2>העלאת שירים</h2>
         </br>
         שם השיר:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
