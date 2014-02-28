@@ -28,7 +28,15 @@ namespace BeatLive
                 songs += "/"+Request.QueryString["name"]+ "/Music/"+(string)r[2]+",";
             }
             r.Close();
-            songs = songs.Substring(0,songs.Length-1);
+            try
+            {
+
+                songs = songs.Substring(0, songs.Length - 1);
+            }
+            catch
+            {
+                songs = "";
+            }
             Response.Write(songs);
 
 
