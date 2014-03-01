@@ -66,15 +66,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bg.jpg" />
     <Content Include="Black.jpg" />
-    <Content Include="BTN.png" />
     <Content Include="Err.png" />
     <Content Include="index.html" />
-    <Content Include="Logo.png" />
+    <Content Include="Login.png" />
+    <Content Include="LoginClick.png" />
+    <Content Include="MenuBar.png" />
     <Content Include="Oopsi.html" />
     <Content Include="packages.config" />
-    <Content Include="Text.png" />
+    <Content Include="Register.png" />
+    <Content Include="RegisterClick.png" />
     <Content Include="White.jpg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

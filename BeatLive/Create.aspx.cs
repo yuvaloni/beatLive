@@ -84,7 +84,7 @@ namespace BeatLive
                 Directory.CreateDirectory(Path.Combine(Server.MapPath("~"), TextBox1.Text));
                 Directory.CreateDirectory(Path.Combine(Server.MapPath("~"), TextBox1.Text, "Music"));
                 File.WriteAllBytes(Path.Combine(Server.MapPath("~"), TextBox1.Text, "Logo.jpg"), FileUpload1.FileBytes);
-                Response.Redirect("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YGBRXR7PMX3W6");
+                Response.Redirect("success.aspx");
 
                 
             }

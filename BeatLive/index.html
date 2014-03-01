@@ -2,39 +2,97 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style type="text/css">
-        #logo 
+        #bar
         {
-            position:absolute;
-            top:0px;
-            left:0px;
-            width:100%;
-            height:15%;
 
+            position:fixed;
+            left:0px;
+            top:0px;
+            width:100%;
+            height:10%;
+            layer:2;
+        }
+        #Login
+        {
+            position:Fixed;
+            top:0px;
+            right:0px;
+            height:10%;
+            width:15%;
+            layer:3;
+        }
+        #Register {
+            position: Fixed;
+            top: 0px;
+            right: 15%;
+            height: 10%;
+            width: 15%;
+            layer:3;
+        }
+        #bg
+        {
+             layer:0;
+             position:fixed;
+             width:100%;
+             height:50%;
+             top:25%
         }
         #text
         {
             position:absolute;
-            top:15%;
-            left:0px;
-            width:100%;
-            height:70%;
-
-
-        }
-        #btn
-        {
-            position:absolute;
-            width:100%;
-            height:10%;
-            top:90%;
-            left:0px;
+            top:10%;
+            width:50%;
+            left:25%;
+            layer:1;
         }
     </style>
     <title></title>
 </head>
-<body background="bg.jpg">
-    <img id="logo" src="logo.png" />
-    <img id="text" src="Text.png" />
-    <a href="Create.aspx"><img id="btn" src="btn.png" /></a>
+<body >
+    <img id="bg" src="bg.png"/>
+    <img id="bar" src="MenuBar.png"/>
+    <a href="login.aspx"><img id="Login" src="Login.png" onMouseOver="getElementById('Login').src = 'LoginClick.png'"  onmouseout="    getElementById('Login').src = 'Login.png'" /></a>
+    <a href="create.aspx"><img id="Register" src="Register.png" onmouseover="getElementById('Register').src = 'RegisterClick.png'" onmouseout="    getElementById('Register').src = 'Register.png'" /></a>
+    <div id="text">
+        <font size="10" dir="rtl" align="center">
+            תמיד חלמתם לפתוח תחנת רדיו? עכשיו זו ההזדמנות שלכם!
+        </font>
+        <br/>
+        <font size="5" dir="rtl" align="center">
+            Beat.Live מאפשר לכם לפתוח תחנת רדיו מתקדמת ומקצועים ועדיין פשוט לתפעול תוך דקות ולשתף את המוזיקה שאתם אוהבים עם  כל העולם!
+        </font>
+        <br/>
+        <font size="10" dir="rtl" align="center">
+            איך זה עובד?
+        </font>
+        <br/>
+        <font size="5" dir="rtl" align="center">
+            לאחר הליך הרשמה קצר ופשוט תוכלו להתחבר לממשק הניהול הפשוט שלנו ולעדכן את הפרטים אודות התחנה, את החדשות וכמובן - להעלות שירים!
+            אתם לא צריכים לדאוג לפרטים הטכניים - אנחנו נדאג להם בשבילכם!
+        </font>
+        <br/>
+        <font size="10" dir="rtl" align="center">
+           הטכנולוגיה
+        </font>
+        <br />
+        <font size="5" dir="rtl" align="center">
+            מאחורי השירות המתקדם שאנחנו מציעים עומדת טכנולוגיה שקרויה בשפה המקצועית "טייס אוטומטי" או בשפת העם - בוט שידור.
+            בזכות טכנולוגיה זו הנמצאת כבררת מחדל  בתחנות רדיו מקצועיות השירים שהעלאתם מתנגנים כל הזמן ברצף - כך שאתם לא צריכים לדאוג לעלות לשידור בזמן - אלא רק באילו שירים אתם מעוניינים לשתף את קהל המאזינים שלכם!
+        </font>
+        <br />
+        <font size="10" dir="rtl" align="center">
+            והמחיר?
+        </font>
+        <br />
+        <font size="5" dir="rtl" align="center">
+             בעוד אתרים אחרים המציעים שירותים דומים מציעים אותם בלפחות 150 ש"ח בחודש ועוד תוספת לבוט שידור - אנחנו מציעים את השירות בחינם כולל את הבוט!  
+
+
+        </font>
+        <br/>
+        <font size="10" dir="rtl" align="center">
+            הירשמו עכשיו! זו ההזדמנות שלכם!
+        </font>
+    </div>
 </body>
 </html>
