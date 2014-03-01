@@ -42,8 +42,7 @@
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="צור תחנה!" />
     
         <br />
-        לאחר לחיצה על הכפתור תפנה לביצוע תשלום באתר פייפל<br />
-     לאחר התשלום תוכל להיכנס לממשק הניהול עם הפרטים החדשים שלך</div>
+        </div>
     </form>
 </body>
 </html>
