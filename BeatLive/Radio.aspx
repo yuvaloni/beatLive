@@ -5,6 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     
 <head runat="server">
+    <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+<script type="text/javascript">
+    smowtion_size = "728x90";
+    smowtion_section = "5425937";
+</script>
+<script type="text/javascript"
+src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
+</script>
+<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
     <style type="text/css">
 
         #i {
@@ -50,7 +59,7 @@
         #ad
         {
             position:absolute;
-            bottom:0px;
+            bottom:100px;
             right:0px;
         }
 
