@@ -5,15 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     
 <head runat="server">
-    <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
-<script type="text/javascript">
-    smowtion_size = "728x90";
-    smowtion_section = "5425937";
-</script>
-<script type="text/javascript"
-src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
-</script>
-<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
     <style type="text/css">
 
         #i {
@@ -62,6 +53,10 @@ src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
             bottom:100px;
             right:0px;
         }
+        add#
+        {
+            bottom:0px;
+        }
 
     </style>
     <title></title>
@@ -87,6 +82,17 @@ src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
                 <div id="about"><font color="<% gocolor(); %>" size="80px"><b>אודותינו:</b></font><br /><font color="<%gocolor(); %>" size="30px"><%gabout(); %></font></div>
                 <div id="news"><font color="<% gocolor(); %>" size="80px"><b>חדשות:</b></font><br/><font color="<%gocolor(); %>" size="30px"><%gnews(); %></font></div>
         <div id ="ad" dir="rtl"><font color="<%gocolor(); %>" soze="12px"><a href="index.html">מופעל ע"י Beat.Live</a></font></div>
+        <div id ="add">
+                <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+<script type="text/javascript">
+    smowtion_size = "728x90";
+    smowtion_section = "5425937";
+</script>
+<script type="text/javascript"
+src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
+</script>
+<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+        </div>
         </form>
 
 </body>
