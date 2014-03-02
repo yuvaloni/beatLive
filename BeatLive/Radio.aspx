@@ -55,7 +55,17 @@
         }
         #add
         {
+            position:absolute;
             bottom:0px;
+            right:0px;
+            
+        }
+        #add2
+        {
+            position:absolute;
+            bottom:0px;
+            right:729px;
+            
         }
 
     </style>
@@ -63,6 +73,7 @@
 </head>
 <body bgcolor="<%gcolor(); %>">
     <form id="form1" runat="server">
+
     <div>
 
                    <font color="<% gocolor(); %>" size="80px"> <%Response.Write(Request.QueryString["name"]); %></font>
@@ -82,6 +93,7 @@
                 <div id="about"><font color="<% gocolor(); %>" size="80px"><b>אודותינו:</b></font><br /><font color="<%gocolor(); %>" size="30px"><%gabout(); %></font></div>
                 <div id="news"><font color="<% gocolor(); %>" size="80px"><b>חדשות:</b></font><br/><font color="<%gocolor(); %>" size="30px"><%gnews(); %></font></div>
         <div id ="ad" dir="rtl"><font color="<%gocolor(); %>" soze="12px"><a href="index.html">מופעל ע"י Beat.Live</a></font></div>
+
         <div id ="add">
                 <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
 <script type="text/javascript">
@@ -92,8 +104,23 @@
 src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
 </script>
 <!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+
         </div>
+<div id ="add2">
+                <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+<script type="text/javascript">
+    smowtion_size = "728x90";
+    smowtion_section = "5425937";
+</script>
+<script type="text/javascript"
+src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
+</script>
+<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+
+        </div>
+
         </form>
+
 
 </body>
 </html>
