@@ -67,7 +67,7 @@
         }
         #add
         {
-            position:absolute;4
+            position:absolute;
             bottom:0px;
             right:0px;
             
