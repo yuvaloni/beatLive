@@ -107,9 +107,27 @@
         <div id ="ad" dir="rtl"><font color="<%gocolor(); %>" soze="12px"><a href="index.html">מופעל ע"י Beat.Live</a></font></div>
 
         <div id ="add">
+            <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+<script type="text/javascript">
+    smowtion_size = "728x90";
+    smowtion_section = "5425937";
+</script>
+<script type="text/javascript"
+src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
+</script>
+<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
 
 </div>
 <div id ="add2">
+    <!-- BEGIN SMOWTION TAG - 728x90 - DO NOT MODIFY -->
+<script type="text/javascript">
+    smowtion_size = "728x90";
+    smowtion_section = "5425937";
+</script>
+<script type="text/javascript"
+src="http://ads.smowtion.com/ad.js?s=5425937&amp;z=728x90">
+</script>
+<!-- END SMOWTION TAG - 728x90 - DO NOT MODIFY -->
 
         </div>
 
