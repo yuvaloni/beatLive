@@ -12,7 +12,7 @@
         <h1> צור תחנת רדיו חדשה</h1>
         שם התחנה:
         <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-        <br />
+        אותיות באנגלית בלבד! ללא רווחים מספרים או סימנים מיוחדים<br />
         <br />
         <br />
         <br />
