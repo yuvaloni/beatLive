@@ -10,9 +10,10 @@
     <form id="form1" runat="server">
     <div>
         <h1> צור תחנת רדיו חדשה</h1>
-        שם התחנה:
+                אותיות באנגלית בלבד! ללא רווחים או סימנים מיוחדים
         <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-        אותיות באנגלית בלבד! ללא רווחים מספרים או סימנים מיוחדים<br />
+                שם התחנה:
+        <br />
         <br />
         <br />
         <br />
