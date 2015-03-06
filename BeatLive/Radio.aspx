@@ -5,6 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     
 <head runat="server">
+    <script type="text/javascript">
+        var adfly_id = 8356307;
+        var adfly_advert = 'int';
+        var frequency_cap = 5;
+        var frequency_delay = 5;
+        var init_delay = 3;
+        var popunder = true;
+</script> 
+<script src="https://cdn.adf.ly/js/entry.js"></script> 
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
